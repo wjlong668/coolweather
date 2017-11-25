@@ -2,8 +2,9 @@
     <dbname value="cool_weather"/>
     <version value="1"/>
     <list>
-        <mapping class="com.coolweather.android.db.Province"/>
-        <mapping class="com.coolweather.android.db.City"/>
-        <mapping class="com.coolweather.android.db.Country"/>
+        <!-- 一定要用自己的包名 -->
+        <mapping class="com.example.weijianglong.coolweather.db.Province"/>
+        <mapping class="com.example.weijianglong.coolweather.db.City"/>
+        <mapping class="com.example.weijianglong.coolweather.db.Country"/>
     </list>
 </litepal>
